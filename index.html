@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/style.css">
+    </head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="image/logo.jpg" width="400"height="100">
+        </div>
+        <div class="header-center">
+            <div class="search-bar">search<div class="bi bi-search"></div>
+            </div>
+        </div>
+        <div class="header-right">
+            <span class="bi bi-person"></span>
+            <button>
+                <span class="bi bi-cart"></span>
+                <div class="count">3</div>
+            </button>
+        </div>
+    </header>
+            <div class="nav">
+                <nav>
+                <span><a href="Birthday">Birthday</a></span>
+                <span><a href="Anniversary">Anniversary</a></span>
+                <span><a href="Gifts">Gifts</a></span>
+                <span><a href="Experiences">Experiences</a></span>
+                <span><a href="Occasion">Occasion</a></span>
+                <span><a href="Cakes">Cakes</a></span>
+                <span><a href="Flowers">Flowers</a></span>
+            <nav>
+            </div>
+        <div class="container">
+            <div class="wrapper">
+                <div class="product-box">
+                    <div class="all-images">
+                    <div class="small-images">
+                      <img src="image/cake11.jpg" alt="" width="200"height="100"onclick="clickimg(this)">
+                        <img src="image/cake2.jpg" alt=""width="200"height="100" onclick="clickimg(this)">
+                        <img src="image/cocolate.jpg" alt="" width="200"height="100" onclick="clickimg(this)">
+                    </div>
+                    <div class="main-images">
+                        <img src="image/cocolate.jpg" alt="" id="imagebox">
+                    </div>
+                    </div>
+                </div>
+            </nav>
+                <div class="text">
+                    <div class="content">
+                        <h1>Chocolate Cake</h1>
+                        <div class="review">
+                            <span>(4.6)</span>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <div class="price-box">
+                            <p class="price">&#8377; 599</p>
+                            <strike>&#8377; 650</strike><br>
+                            <span class="dis"><br>9% off</span>
+                        </div>
+                        <h4>Select Weight </h4>
+                        <div>
+                            <input type="radio">
+                            <label for ="cake">0.5kg</label>
+                            <input type="radio">
+                            <label for="cake">1kg</label>
+                            <input type="radio">
+                            <label for="cake">2kg</label>
+                            <div class="price">
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8377;599</span>
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8377;650</span>
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8377;700</span>
+                            </div>
+                            <br>
+                            <div class="pincode">
+                               <span class="bi bi-geo-alt"> <input type="number" placeholder="Enter Pincode"></span>
+                                <input type="date" placeholder="Select Date">
+                            </div>
+                            <br>
+                            <br>
+                            <div class="variety">
+                                <input type="radio">
+                                <label for="cake">Eggless</label>
+                                <input type="radio">
+                                <label for="cake">With Egg</label>
+                                <input type="text" placeholder="Message on cake">
+                            </div>
+                            <br>
+                            <h4>Select Delivery Type</h4>
+                            <div class="delivery-type">
+                                <button>Standard(free)</button>
+                                <button>Fixed-time</button>
+                                <button>MidNight</button>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="time">
+                                <h4>Select Time</h4>
+                                <input type="time" placeholder="SelectTime">
+                            </div>
+                            <br>
+        
+
+                            <div class="btn">
+                                <button onclick="click">Add To cart</button>
+                                <button onclick="click">Buy Now</button>
+                            </div>
+                        
+                           <br>
+                            <div class="production">
+                                <h3>Product Decription</h3>
+                                <p>Cake is a flour confection made from flour, sugar, and other ingredients and is usually
+                                    baked. In their oldest forms, cakes were modifications of bread, but cakes now cover a
+                                    wide range of preparations that can be simple or elaborate and which share features with
+                                    desserts such as pastries, meringues, custards, and pies.</p>
+                                <ul>
+                                    <li>Weight : 500gm</li>
+                                    <li>Flavours : Chocklate</li>
+                                    <li>Shape : Round</li>
+                                    <li>Country of Origin : India</li>
+                                    <br>
+                                    <h3>Desclaimer</h3>
+                                    <li> Delivery product might vary slighty from the image shown</li>
+                                    <li>This product is perisable there for delivery will be attempted only once</li>
+                                    <li>The delivery cannot be redirected to any other address</li>
+                                </ul>
+                            </div>
+                            <div class="review">
+                                <i class="bi bi-star-fill"></i>
+                                <span>5.0</span>
+                                <span>.3 reviews</span>
+                            </div>
+                            <br>
+                            <div>
+                                <table class="table-1">
+                                    <th>
+                                    <td>
+                                        <img src="image/r1.png" alt=""width="100"height="100"><span>Zimkitha, November 2023</span>
+                                        <div class="review">
+                                            <span>(4.6)</span>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <img src="image/r1.png" alt=""width="100"height="100"><span>Zimkitha, November 2022</span>
+                                        <div class="review">
+                                            <span>(4.6)</span>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <img src="image/r1.png" alt=""width="100"height="100"><span>Zimkitha, july 2023</span>
+                                        <div class="review">
+                                            <span>(4.6)</span>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                    </td>
+                                    </td>
+                                    </th>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                        <span class="like">You  May  Also   Like</span>
+                        <div class="wrapper2">
+                            <span class="bi bi-chevron-left"></span>
+                        <div class="carousel">
+                        <table class="table-2">
+                            <th>
+                            <td>
+                            
+                                <img src="image/b1.jpg" alt="">Butterscotch <div class="review">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                                <p>&#8377;599</p><strike>&#8377;600</strike>
+                                <h5>Same Day delivery</h5>
+                                <h6 class="review1">Review 200</h6>
+                            </td>
+                            <td><img src="image/b3.jpg" alt="">Strawberry<div class="review">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                                <p>&#8377;599</p><strike>&#8377;600</strike>
+                            
+                                <h5>Same Day delivery</h5>
+                                <h6 class="review1">Review 200</h6>
+                            </td>
+                            <td><img src="image/b2.jpg" alt="">
+                                Butterscotch<div class="review">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                                <p>&#8377;599</p><strike>&#8377;600</strike>
+                                <h5>Same Day delivery</h5>
+                                <h6 class="review1">Review 200</h6>
+                            </td>
+                            <td><img src="image/venila.jpg" alt="">Vanilla <div class="review">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                                <p>&#8377;599</p><strike>&#8377;600</strike>
+                                
+                                <h5>Same Day delivery</h5>
+                                <h6 class="review1">Review 200</h6>
+                            </td>
+                            <td><img src="image/b4.jpg" alt="" >Strawberry cake<div class="review">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                                <p>&#8377;599</p><strike>&#8377;600</strike>
+                                
+                                <h5>Same Day delivery</h5>
+                                <h6 class="review1">Review 200</h6>
+                            </td>
+                            </th>
+                        </table>
+                        <span class="bi bi-chevron-right"></span>
+                        </div>
+                       </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
